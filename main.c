@@ -51,7 +51,6 @@ int main(){
 int loadMembers(struct Record* p[]){
   FILE *file;
   int n=0;
-  printf("Edited by 조요셉\n");
   file = fopen("members.txt","rt");
   while(!feof(file)){
     p[n]=(struct Record*)malloc(sizeof(struct Record));
